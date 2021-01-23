@@ -239,7 +239,6 @@ print(elm_model.evaluete(X_test, y_test)[1])
 
 #%%
 
-Accuracy = [63.4 ,66.5, 72]
 
 index = ['SVM', 'ELM', 'SVM + ELM']
 df = pd.DataFrame({'Accuracy': Accuracy}, index=index)
